@@ -7,4 +7,6 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+  #chrome/httpie             file name           method in the file
+  get "/friday", controller: "examples", action: "students"
 end
