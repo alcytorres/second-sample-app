@@ -9,4 +9,5 @@ Rails.application.routes.draw do
   # root "posts#index"
   #chrome/httpie             file name           method in the file
   get "/friday", controller: "examples", action: "students"
+  get "/chair", controller: "examples", action: "sitting"
 end
